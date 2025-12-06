@@ -80,6 +80,7 @@ class _HomePageState extends HomePageModel {
 
   Column songInformation(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         ClipRRect(
           borderRadius: BorderRadius.circular(12),
